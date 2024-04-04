@@ -6,7 +6,6 @@ const lista_urzytkownikow = [
   { imie: "Tomasz" },
   { imie: "Wiktoria" },
 ];
-console.log(lista_urzytkownikow);
 
 function App() {
   return (
