@@ -9,11 +9,7 @@ import Typography from "@mui/material/Typography";
 export default function MediaCard({ name, surname, content, image }) {
   return (
     <Card sx={{ maxWidth: 345 }}>
-      <CardMedia
-        sx={{ height: 140 }}
-        image="https://geoforum.pl/upload3/news_pl/picture/328_geodeta_artykul6.jpg"
-        title="green iguana"
-      />
+      <CardMedia sx={{ height: 140 }} image={image} title="green iguana" />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
           {name} {surname}

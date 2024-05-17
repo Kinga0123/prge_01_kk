@@ -47,7 +47,7 @@ function Dashboard() {
             name={item.name}
             surname={item.surname}
             content={item.content}
-            img={item.image}
+            image={item.image}
           />
         );
       })}
