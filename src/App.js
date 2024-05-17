@@ -25,7 +25,6 @@ const router = createBrowserRouter([
 ]);
 
 function App() {
-  const imie = "World";
 
   return (
     <div className="App">
