@@ -1,5 +1,6 @@
 import React from "react";
 import MediaCard from "./Card";
+import "./Dashboard.css";
 
 function Dashboard() {
   const input_list = [
@@ -40,7 +41,7 @@ function Dashboard() {
     },
   ];
   return (
-    <div>
+    <div className="card-container">
       {input_list.map((item) => {
         return (
           <MediaCard
@@ -51,7 +52,6 @@ function Dashboard() {
           />
         );
       })}
-      <MediaCard />
     </div>
   );
 }

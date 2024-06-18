@@ -1,0 +1,12 @@
+/* styles.css */
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px; /* Odstęp między kartami */
+  padding: 16px; /* Padding kontenera */
+}
+
+.card-container > * {
+  max-width: 100%; /* Ustaw maksymalną szerokość kart */
+}
